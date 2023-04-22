@@ -31,5 +31,29 @@ if (vida >= 0 && vida <=20){
     actionIndex = 3;
 }
 
-console.log(`Tu salud es de ${vida}, ${charAction[actionIndex]}`)
+console.log(`Tu salud es de ${vida}, ${charAction[actionIndex]}`);
 
+
+
+//!!!!!!!!!!!!!!!!! SIN CONECTORES LÓGICOS !!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+// let charAction = ["estás huyendo", "estás en modo defensivo", "estás en modo moderado", "estás en modo ofensivo"];
+// let vida = parseInt(prompt("Ingresa tus puntos de vida"));
+
+// let actionIndex;
+// if (vida >= 0) {
+//     if (vida <= 20) {
+//         actionIndex = 0;
+//     } else if (vida <= 50) {
+//         actionIndex = 1;
+//     } else if (vida <= 80) {
+//         actionIndex = 2;
+//     } else if (vida <= 100) {
+//         actionIndex = 3;
+//     }
+// }else{
+//     alert("El valor que ingresaste es inválido.")
+// }
+
+// console.log(`Tu salud es de ${vida}, ${charAction[actionIndex]}`);
